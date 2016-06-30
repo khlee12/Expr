@@ -14,7 +14,7 @@
 		8468D3431D235D2A002E263E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8468D3411D235D2A002E263E /* LaunchScreen.storyboard */; };
 		8468D34E1D235D2A002E263E /* ExprTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D34D1D235D2A002E263E /* ExprTests.swift */; };
 		8468D3591D235D2A002E263E /* ExprUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D3581D235D2A002E263E /* ExprUITests.swift */; };
-		8468D3681D23B290002E263E /* ExprBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D3671D23B290002E263E /* ExprBrain.swift */; };
+		8468D36A1D23C454002E263E /* ExprCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8468D3691D23C454002E263E /* ExprCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		8468D3541D235D2A002E263E /* ExprUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExprUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8468D3581D235D2A002E263E /* ExprUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExprUITests.swift; sourceTree = "<group>"; };
 		8468D35A1D235D2A002E263E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8468D3671D23B290002E263E /* ExprBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExprBrain.swift; sourceTree = "<group>"; };
+		8468D3691D23C454002E263E /* ExprCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExprCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				8468D3661D235D35002E263E /* Supporting files */,
 				8468D33A1D235D2A002E263E /* ViewController.swift */,
 				8468D33C1D235D2A002E263E /* Main.storyboard */,
-				8468D3671D23B290002E263E /* ExprBrain.swift */,
+				8468D3691D23C454002E263E /* ExprCore.swift */,
 			);
 			path = Expr;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8468D3681D23B290002E263E /* ExprBrain.swift in Sources */,
+				8468D36A1D23C454002E263E /* ExprCore.swift in Sources */,
 				8468D33B1D235D2A002E263E /* ViewController.swift in Sources */,
 				8468D3391D235D2A002E263E /* AppDelegate.swift in Sources */,
 			);
@@ -496,6 +496,7 @@
 				8468D35F1D235D2A002E263E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8468D3601D235D2A002E263E /* Build configuration list for PBXNativeTarget "ExprTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +505,7 @@
 				8468D3621D235D2A002E263E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8468D3631D235D2A002E263E /* Build configuration list for PBXNativeTarget "ExprUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +514,7 @@
 				8468D3651D235D2A002E263E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
